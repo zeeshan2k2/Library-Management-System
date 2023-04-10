@@ -105,41 +105,37 @@ input {
 	font-size: 19.6px;
 }
 
-/*.fa-search {
-	color: #000000;
-	font-size: 20px;
-}
-
-.fa-search:hover {
-	color: #c4c4c4;
-}*/
-
 .bx-search-alt-2 {
 	color: black;
 }
 
-.bxs-user-account {
-	position: absolute;
-	top: 10px;
-	right: 24.7%;
-	font: 150% "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+.acc-cart-wishli {
+	padding-left: 61.5%;
+	align-items: center;
+}
+
+.acc-cart-wishli a {
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 5px;
+	text-decoration: none;
 	color: black;
 }
 
-.bx-cart {
-	position: absolute;
-	top: 10px;
-	right: 16%;
-	font: 150% "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: black;
+.acc-cart-wishli a:hover {
+	color: gray;
 }
 
-.bx-heart {
-	position: absolute;
-	top: 10px;
-	right: 4%;
-	font: 150% "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: black;
+
+.acc-cart-wishli img {
+	height: 38px;
+	width: 39px;
+	padding-right: 12px;
+	padding-left: 19px;
+	margin-left: 10px;
+	padding-top: 5px;
 }
 
 
@@ -165,7 +161,8 @@ input {
 #navbar ul {
 	padding: 10px;
 	list-style: none;
-	background-color: #173F5F;
+	/*background-color: #173F5F;*/
+	background-color: #1f527b
 }
 
 #navbar li {
@@ -173,15 +170,24 @@ input {
 	display: inline;
 }
 
+#navbar a:hover {
+	cursor: pointer;
+	/*background-color: #26679a;*/
+	background-color: #173F5F;
+}
+
 #navbar a {
 	color: #fff;
 	text-decoration: none;
 	font-size: 15px;
-	padding-right: 20px;
+	padding-right: 15px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 10px;
 }
 
 #navbar a:hover {
-	color: #ccc2c2;
+	color: #ffffff;
 }
 
 
@@ -241,6 +247,7 @@ input {
 	scroll-snap-align: right;
 	object-fit: cover;
 	max-width: 89rem;
+	height: 340px;
 }
 
 
@@ -321,8 +328,15 @@ input {
 }
 
 
-/* items start */
+.sliderbar img{
+	width: 80%;
+	padding-left: 10%;
+}
 
+
+
+
+/* items start */
 
 
 :root{
@@ -331,15 +345,14 @@ input {
     --starColor: #f67034;
     --sectionBack: #f7f6f9;
 }
-* {
-	font-family: 'Raleway', sans-serif;
-}
 
 .whole{
+	padding-top: 20px;
     background-color: #ffffff;
     min-height: 80vh;
     display: grid;
     place-content: center;
+	font-family: 'Raleway', sans-serif;
 }
 .container4{
     width: 80vw;
@@ -376,7 +389,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 14px 10px 7px;
+    padding: 9px 10px 7px;
     border-radius: 10px;
     transition: .3s;
 }
@@ -391,13 +404,14 @@ input {
     place-content: center;
 }
 .image img{
-	width: 104px;
-	height: 155px;
+	width: 103px;
+	height: 110%;
 }
 .namePrice{
     width: 100%;
     display: flex;
     justify-content: space-between;
+	height: 0px;
 }
 .namePrice h3{
     font-size: 2em;
@@ -412,6 +426,7 @@ input {
 .product p{
     font-size: 18px;
     line-height: 25px;
+	height: 0px;
 }
 .stars svg{
     font-size: 1.3em;
@@ -423,12 +438,14 @@ input {
     right: 20px;
 }
 .bay button{
-    padding: 4px 6px;
+    padding: 4px 6px 4px;
+	padding-left: 6px;
+	padding-right: 8px;
     border-radius: 9px;
     border: none;
     background-color: var(--textColor);
     color: var(--sectionBack);
-    font-size: 18px;
+    font-size: 14px;
     text-transform: capitalize;
     cursor: pointer;
     transition: .5s;
@@ -436,43 +453,3 @@ input {
 .bay button:hover{
     transform: scale(1.1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
