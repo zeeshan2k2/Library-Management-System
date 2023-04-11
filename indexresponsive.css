@@ -162,7 +162,8 @@ input {
 	padding: 10px;
 	list-style: none;
 	/*background-color: #173F5F;*/
-	background-color: #1f527b
+	background-color: #1f527b;
+	margin-top: 7px;
 }
 
 #navbar li {
