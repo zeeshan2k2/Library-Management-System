@@ -71,63 +71,55 @@
 <!-- navigation bar end -->
 
 
-<!--image slider start-->
-    <div class="container3">
-	<div class="slider">
-      <div class="slides">
-        <!--radio buttons start-->
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
-        <!--radio buttons end-->
-        <!--slide images start-->
-        <div class="slide first" >
-		<a href="http://" alt=""><img src="sliderimg1.jpeg" alt=""></a>
-        </div>
-        <div class="slide">
-          <a href="http://" alt=""><img src="sliderimg2.jpeg" alt=""></a>
-        </div>
-        <div class="slide">
-          <a href="http://" alt=""><img src="sliderimg3.jpeg" alt=""></a>
-        </div>
-        <!--slide images end-->
-        <!--automatic navigation start-->
-        <div class="navigation-auto">
-          <div class="auto-btn1"></div>
-          <div class="auto-btn2"></div>
-          <div class="auto-btn3"></div>
-        </div>
-        <!--automatic navigation end-->
+<!-- image slider start -->
+
+
+<div id="slider">
+   <input type="radio" name="slider" id="slide1" checked>
+   <input type="radio" name="slider" id="slide2">
+   <input type="radio" name="slider" id="slide3">
+   <input type="radio" name="slider" id="slide4">
+   <div id="slides">
+      <div id="overflow">
+         <div class="inner">
+            <div class="slide slide_1">
+               <div class="slide-content">
+                  <img src="sliderimg1.jpeg" alt="" />
+               </div>
+            </div>
+            <div class="slide slide_2">
+               <div class="slide-content">
+                  <img src="sliderimg2.jpeg" alt="" />
+               </div>
+            </div>
+            <div class="slide slide_3">
+               <div class="slide-content">
+                  <img src="sliderimg3.jpeg" alt="" />
+               </div>
+            </div>
+           
+            </div>
+         </div>
       </div>
-      <!--manual navigation start-->
-      <div class="navigation-manual">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-      </div>
-      <!--manual navigation end-->
-    </div>
-	</div>
-    <!--image slider end-->
-	
-	<!-- javascript for sliding slides -->
-	<script type="text/javascript">//
-    var counter = 1;
-    setInterval(function(){
-      document.getElementById('radio' + counter).checked = true;
-      counter++;
-      if(counter > 3){
-        counter = 1;
-      }
-    }, 5000);
-    </script>
-	
-	
-	<div class="sliderbar">
-		<img src="sliderbar.png" alt="" />
-	</div>
-	
-	
+   </div>
+   <div id="controls">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+   </div>
+   <div id="bullets">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+
+   </div>
+   
+   <img class="slidebar" src="sliderbar.png" alt="" />
+</div>
+
+
+<!-- image slider end -->
+
 
 	<!-- Best Sellers start -->
 	
