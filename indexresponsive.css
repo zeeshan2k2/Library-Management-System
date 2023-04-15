@@ -244,7 +244,7 @@ input {
 #slider {
    margin: 0 auto;
    width: 100%;
-   /*max-width: 100%;*/
+   max-width: 100%;
    text-align: center;
    
 }
@@ -606,11 +606,112 @@ h4 {
 /* index.html end */
 
 
+
+
 /* book.html start */
 
 
 
+/* book.html end */
 
+
+
+
+
+/* buy now page start */
+
+.buynowpage {
+	padding-top: 7%;
+	padding-left: 10%;
+	margin-bottom: 10%;
+}
+
+.buy-img {
+	display: flex;
+}
+
+.buy-img img{
+	display: flex;
+}
+
+.buy-img h3{
+	line-height: 1;
+	width: 90%;
+	height: 20%;
+	padding-left: 0%;
+	font-size: 53px;
+	margin-top: -2%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.item-details {
+	padding-left: 0%;
+	padding-top: 0%;
+	justify-content: space-around;
+}
+
+.item-details p{
+	margin-top: 6%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 244%;
+	margin-left: 3px;
+	display: inline;
+	color: rgba(0, 0, 0, 0.51);
+}
+
+.author-name {
+	padding-left: 2.5%;
+}
+
+.item-details ul {
+	list-style: none;
+}
+
+.ISBN {
+	padding-left: 4%;
+	font-family: Montserrat;
+}
+
+.description {
+	padding-left: 4%;
+	padding-top: 1%;
+	margin-right: 40%;
+	font-family: Arial;
+}
+
+.book-price {
+	margin-left: 75%;
+	margin-bottom: 4%;
+	margin-top: -7%;
+	font-family: Montserrat;
+	font-size: 135%;
+}
+
+.button {
+	margin-left: 74%;
+	margin-top: -3%;
+}
+
+.button button {
+	padding: 4px 6px 4px;
+	padding-left: 6px;
+	padding-right: 8px;
+    border-radius: 9px;
+    border: none;
+    background-color: var(--textColor);
+    color: var(--sectionBack);
+    font-size: 27px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button button:hover {
+	transform: scale(1.1);
+}
+
+
+/* buy now page end */
 
 
 
