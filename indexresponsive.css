@@ -111,14 +111,6 @@ i5 {
 	text-decoration: none;
 }
 
-.profile-photo {
-	position: absolute;
-	left: 35px;
-	background: #C4C4C4;
-	border-radius: 43px;
-	width: 50px;
-	height: 50px;
-}
 
 .search-bar {
 	position: absolute;
@@ -151,18 +143,29 @@ input {
 }
 
 
-
-.bx-user:hover {
-	color: rgba(63, 63, 120, 0.8);
+.bx-user:before {
+	color: black;
 }
 
-.bx-cart:hover {
-	color: rgba(63, 63, 120, 0.8);
+/*.bx-user:hover {
+	color: gray;
+}*/
+
+.bx-cart:before {
+	color: black;
 }
 
-.bx-heart:hover {
+/*.bx-cart:hover {
 	color: rgba(63, 63, 120, 0.8);
+}*/
+
+.bx-heart::before{
+	color: black;
 }
+
+/*.bx-heart:hover {
+	color: rgba(63, 63, 120, 0.8);
+}*/
 
 .acc-cart-wishli a {
 	height: 35px;
@@ -260,7 +263,7 @@ input {
    background: #fff;
    position: relative;
    z-index: 1;
-   width: 166^;
+   /*width: 166^;*/
 }
 #overflow {
    width: 100%;
@@ -544,6 +547,7 @@ input {
 /* Recently Added end */
 
 footer {
+	padding-top: 5%;
 	background-color: #1b2741;
 	color: white;
 	font-size: 14px;
@@ -556,7 +560,20 @@ footer {
 	margin-left: 15px;
 }
 
+.about-us-sec {
+	padding-bottom: 1%;
+}
+
+#h4 {
+	padding-bottom: 1%;
+}
+
+#p {
+		font-size: 110%;
+}
+
 h4 {
+	text-align: left;
 	font-size: 25px;
 	height: 22px;
 	padding-top: 17px;
@@ -564,7 +581,8 @@ h4 {
 	color: white;
 }
 .conwitus {
-	padding-left: 0px;
+	display: flex;
+	padding-bottom: 0.5%;
 }
 
 
@@ -575,7 +593,7 @@ h4 {
 }
 
 .bx {
-	color: #4c3a3a;
+	color: #958d8d;
 }
 
 .cont-us ul {
@@ -589,7 +607,7 @@ h4 {
 }
 
 .conec-us {
-	padding-left: 90px;
+	padding-left: 19.5%;
 }
 
 .conec-us li{
@@ -597,11 +615,9 @@ h4 {
 	margin-right: 14px;
 }
 
-.conwitus {
-	/*margin-bottom: 900px;*/
-	display: flex;
+.conec-us bx{
+	color: red;
 }
-
 
 /* index.html end */
 
@@ -712,55 +728,3 @@ h4 {
 
 
 /* buy now page end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
