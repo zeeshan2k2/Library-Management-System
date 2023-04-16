@@ -105,6 +105,10 @@ i5 {
 	border-radius: 30px;
 }
 
+.bx-search-alt-2:before {
+	color: #565252;
+}
+
 input {
 	background: transparent;
 	border: 0px;
@@ -711,5 +715,3 @@ h4 {
 
 
 /* buy now page end */
-
-
