@@ -12,51 +12,34 @@ body {
 	margin: 0;
 }
 
+.header1 {
+	margin-bottom: -2.1%;
+	padding-left: 82%;
+}
+
 i1 {
-	position: absolute;
-	left: 78.75%;
-	right: 20.5%;
-	top: 1.23%;
-	bottom: 90.52%;
-	color: black;
+	padding-right: 10%;
+	padding-top: 3.5%;
 
 }
 
 i2 {
-	position: absolute;
-	left: 82.48%;
-	right: 16.43%;
-	top: 1.23%;
-	bottom: 91.46%;
-	color: #173F5F;
-
+	padding-top: 3.5%;
+	padding-right: 10%;
 }
 
 i3 {
-	position: absolute;
-	left: 86.55%;
-	right: 12.41%;
-	top: 1.23%;
-	bottom: 91.46%;
-	color: #173F5F;
+	padding-top: 3.5%;
+	padding-right: 10%;
 }
 
 i4 {
-	position: absolute;
-	left: 90.58%;
-	right: 8.23%;
-	top: 1.23%;
-	bottom: 91.79%;
-	color: #173F5F;
+	padding-top: 3.5%;
+	padding-right: 10%;
 }
 
 i5 {
-	position: absolute;
-	left: 94.75%;
-	right: 4.31%;
-	top: 1.23%;
-	bottom: 91.94%;
-	color: #173F5F;
+	padding-top: 3.5%;
 }
 
 .bxl-facebook:hover {
@@ -728,3 +711,5 @@ h4 {
 
 
 /* buy now page end */
+
+
