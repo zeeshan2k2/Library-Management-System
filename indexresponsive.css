@@ -263,6 +263,10 @@ i5 {
    height: 300px;
 }
 
+.slide-content {
+	width: 100%;
+}
+
 .slide-content img {
 	height: 101%;
 	width: 100%;
@@ -926,11 +930,6 @@ form .btn1 button{
 }
 
 /* about us end */
-
-
-
-
-
 
 
 
